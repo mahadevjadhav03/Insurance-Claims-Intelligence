@@ -1,0 +1,18 @@
+Life — 5 categories × 5 years = 25
+Individual Death Claims
+Duration-wise Settlement
+Policy Volume
+Premium
+Grievances
+🟩 Health — 4 categories × 5 years = 20
+Claims Development & Ageing
+Premium
+ICR
+Grievances
+🟨 General — 4 categories × 5 years = 20
+Claims Status
+Premium
+ICR
+Grievances
+
+Total selected = 25 + 20 + 20 = 65 year-category entries.

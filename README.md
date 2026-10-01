@@ -34,8 +34,8 @@ Extract (IRDAI handbooks, 5 years)
    → Feature Engineering (7 reliability metrics)
    → EDA (count vs. value gap, repudiation patterns)
    → Claims Reliability Index (weighted score + sensitivity analysis)
-   → SQL analysis layer (year-wise ranking, CRI movement)
-   → Power BI dashboard (insurer reliability across financial years)
+   → SQL analysis layer — done (12 queries: ranking, YoY movement, composite reliability score)
+   → Power BI dashboard (insurer reliability across financial years) — in progress
 ```
 
 Notebooks are numbered in pipeline order (`01_Life_Data_Audit` → `05_Life_CRI`) so each stage's input/output is traceable to the next.
@@ -64,7 +64,8 @@ Notebooks are numbered in pipeline order (`01_Life_Data_Audit` → `05_Life_CRI`
 
 ## SQL & Dashboard
 
-*(In progress)* A MySQL analysis layer (CTEs, window functions) for year-wise insurer ranking and CRI movement, and a Power BI dashboard tracking insurer reliability across financial years, are being added — `sql/` and `dashboard/` folders will be updated once complete.
+- **SQL analysis layer — done.** 12 MySQL queries (CTEs, window functions, NTILE, RANK/DENSE_RANK) covering insurer-wise Count-Value Gap ranking, YoY gap movement, persistent high-gap detection, repudiation and pending-claims analysis, and a composite multi-metric reliability ranking. See `sql/Life_Queries.sql`.
+- **Power BI dashboard** — *(in progress)*, tracking insurer reliability across financial years; `dashboard/` folder will be updated once complete.
 
 ## Repo structure
 
@@ -74,7 +75,8 @@ Notebooks are numbered in pipeline order (`01_Life_Data_Audit` → `05_Life_CRI`
 ├── 03_Life_Feature_Engineering.ipynb
 ├── 04_Life_EDA.ipynb
 ├── 05_Life_CRI.ipynb
-├── sql/                  # (coming soon)
+├── sql/
+│   └── Life_Queries.sql  # 12 queries — ranking, YoY movement, composite reliability score
 ├── dashboard/            # (coming soon)
 └── README.md
 ```

@@ -1,0 +1,29 @@
+Final SQL Challenge Set
+
+So I'd lock our Life SQL phase at:
+
+Core — 13 questions
+
+EDA translation
+
+Average Gap ranking
+YoY Gap change
+Persistent Gap classification
+
+CRI ranking/trends
+4. Year-wise CRI ranking
+5. YoY CRI movement
+6. CRI rank movement
+
+Stability
+7. CRI stability analysis
+8. Gap quartile analysis
+
+Advanced / standout
+9. Rebuild CRI completely in SQL
+10. Python CRI ↔ SQL CRI validation
+
+Data quality / business
+11. Insurer year-coverage audit
+12. Low-volume vs normal-volume analysis
+13. First-vs-latest CRI improvement

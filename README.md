@@ -81,7 +81,7 @@ Tracks overall claims performance and reliability across FY 2020-21 to FY 2024-2
 - Top 5 insurers by average CRI
 - FY and insurer slicers
 
-![Executive Overview](docs/powerbi/01_Executive_Overview.png)
+![Executive Overview](powerbi/01_Executive_Overview.png)
 
 ### 2. Insurer Reliability & CRI Diagnostics
 
@@ -93,7 +93,7 @@ Provides insurer-level diagnostics including:
 - Minimum, maximum, and average CRI
 - Insurer-wise multi-year reliability table
 
-![CRI Diagnostics](docs/powerbi/02_CRI_Diagnostics.png)
+![CRI Diagnostics](powerbi/02_CRI_Diagnostics.png)
 
 ## Repo structure
 

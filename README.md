@@ -5,6 +5,13 @@ This project builds a custom **Claims Reliability Index (CRI)** to answer that u
 
 ---
 
+## Dashboard Preview
+![Executive Overview](powerbi/01_Executive_Overview.png)
+
+--- 
+
+![CRI Diagnostics](powerbi/02_CRI_Diagnostics.png)
+
 ## Why this project
 
 Indian life insurers report a **Claim Settlement Ratio (CSR)** — the % of claims settled — as their headline reliability metric. But CSR is usually reported *by count* of claims, not *by value* paid out. A company can settle 98% of claims by count while settling far less of the actual rupee value, if the unsettled claims are the high-value ones.
@@ -81,7 +88,6 @@ Tracks overall claims performance and reliability across FY 2020-21 to FY 2024-2
 - Top 5 insurers by average CRI
 - FY and insurer slicers
 
-![Executive Overview](powerbi/01_Executive_Overview.png)
 
 ### 2. Insurer Reliability & CRI Diagnostics
 
@@ -93,7 +99,6 @@ Provides insurer-level diagnostics including:
 - Minimum, maximum, and average CRI
 - Insurer-wise multi-year reliability table
 
-![CRI Diagnostics](powerbi/02_CRI_Diagnostics.png)
 
 ## Repo structure
 

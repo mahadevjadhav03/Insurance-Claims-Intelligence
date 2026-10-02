@@ -35,7 +35,7 @@ Extract (IRDAI handbooks, 5 years)
    → EDA (count vs. value gap, repudiation patterns)
    → Claims Reliability Index (weighted score + sensitivity analysis)
    → SQL analysis layer — done (12 queries: ranking, YoY movement, composite reliability score)
-   → Power BI dashboard (insurer reliability across financial years) — in progress
+   → → Power BI dashboard (insurer reliability across financial years) — completed
 ```
 
 Notebooks are numbered in pipeline order (`01_Life_Data_Audit` → `05_Life_CRI`) so each stage's input/output is traceable to the next.
@@ -65,7 +65,35 @@ Notebooks are numbered in pipeline order (`01_Life_Data_Audit` → `05_Life_CRI`
 ## SQL & Dashboard
 
 - **SQL analysis layer — done.** 12 MySQL queries (CTEs, window functions, NTILE, RANK/DENSE_RANK) covering insurer-wise Count-Value Gap ranking, YoY gap movement, persistent high-gap detection, repudiation and pending-claims analysis, and a composite multi-metric reliability ranking. See `sql/Life_Queries.sql`.
-- **Power BI dashboard** — *(in progress)*, tracking insurer reliability across financial years; `dashboard/` folder will be updated once complete.
+- *→ Power BI dashboard (insurer reliability across financial years) — completed
+
+## Power BI Dashboard
+
+The completed Power BI report contains two pages:
+
+### 1. Executive Overview
+
+Tracks overall claims performance and reliability across FY 2020-21 to FY 2024-25, including:
+
+- Average and maximum CRI
+- Total claims and total claims amount
+- CRI trend across financial years
+- Top 5 insurers by average CRI
+- FY and insurer slicers
+
+![Executive Overview](docs/powerbi/01_Executive_Overview.png)
+
+### 2. Insurer Reliability & CRI Diagnostics
+
+Provides insurer-level diagnostics including:
+
+- Pending rate by insurer
+- Count-vs-Value reliability comparison
+- Count–Value consistency gap
+- Minimum, maximum, and average CRI
+- Insurer-wise multi-year reliability table
+
+![CRI Diagnostics](docs/powerbi/02_CRI_Diagnostics.png)
 
 ## Repo structure
 

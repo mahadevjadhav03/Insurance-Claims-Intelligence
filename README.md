@@ -6,10 +6,11 @@ This project builds a custom **Claims Reliability Index (CRI)** to answer that u
 ---
 
 ## Dashboard Preview
+### Executive Overview
 ![Executive Overview](powerbi/01_Executive_Overview.png)
 
 --- 
-
+### CRI Diagnostics
 ![CRI Diagnostics](powerbi/02_CRI_Diagnostics.png)
 
 ## Why this project

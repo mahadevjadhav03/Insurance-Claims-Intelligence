@@ -105,6 +105,6 @@ Provides insurer-level diagnostics including:
 ├── 05_Life_CRI.ipynb
 ├── sql/
 │   └── Life_Queries.sql  # 12 queries — ranking, YoY movement, composite reliability score
-├── dashboard/            # (coming soon)
+├── dashboard/           
 └── README.md
 ```
